@@ -2,7 +2,7 @@
 
 Advanced Research Agent is an AI-powered tool designed to automate the process of researching developer tools, frameworks, and technologies. It leverages LLMs and web scraping to extract, analyze, and recommend the best solutions for your development needs.
 
-## 🚀 Advanced Features
+## Advanced Features
 
 - **Automated Web Search & Scraping**
   - Integrates with Firecrawl for deep web search and content extraction
@@ -30,12 +30,12 @@ Advanced Research Agent is an AI-powered tool designed to automate the process o
 - **Extensible Architecture**
   - Add new research steps, data sources, or LLMs with minimal changes
 
-## 🧩 Extending the Agent
+## Extending the Agent
 - Add new workflow steps by defining methods in `workflow.py` and registering them in the state graph.
 - Integrate additional LLMs or APIs by updating the `llm` attribute in the `Workflow` class.
 - Plug in new data sources (APIs, databases) by extending `firecrawl.py`.
 
-## ⚙️ Configuration & Customization
+## Configuration & Customization
 - **Prompts:**
   - Edit `src/prompts.py` to customize LLM prompt templates for extraction, analysis, or recommendations.
 - **Workflow:**
